@@ -1,0 +1,14 @@
+.Main {
+  height: 100%;
+  padding: 30px;
+  margin: 5px;
+
+  .Card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+  }
+}

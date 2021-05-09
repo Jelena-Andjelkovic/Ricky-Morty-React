@@ -1,0 +1,33 @@
+.Card {
+  height: 400px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #bd0692;
+  background-image: linear-gradient(
+    to top,
+    rgba(191, 180, 247, 0.8),
+    rgba(0, 254, 255, 0.8)
+  );
+  img {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  button {
+    font-size: 20px;
+    color: #00feff;
+    background-color: #bd0692;
+    border-radius: 50px;
+    margin: 10px 10px 10px 0;
+    padding: 10px 20px;
+  }
+}
